@@ -1,0 +1,13 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "recursive": "node -r esbuild-register ./src/recursive.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.53",
+    "esbuild-register": "^3.3.3"
+  }
+}
